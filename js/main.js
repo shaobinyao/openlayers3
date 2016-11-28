@@ -356,7 +356,7 @@ function initialize()
     	new ol.layer.Tile({
             opacity: 0.7,
             source: new ol.source.WMTS({
-              url: 'http://www.jjmap.gov.cn/dfc/services/ogc/wmts/JJVEC',			  
+              url: '',			  
               layer: '0',
               matrixSet: 'EPSG:4326',
               format: 'image/png',
@@ -373,7 +373,7 @@ function initialize()
         new ol.layer.Tile({
             opacity: 0.7,
             source: new ol.source.WMTS({
-              url: 'http://www.jjmap.gov.cn/dfc/services/ogc/wmts/JJCVA',
+              url: '',
               layer: '0',
               matrixSet: 'EPSG:4326',
               format: 'image/png',
@@ -1202,7 +1202,7 @@ function mapTypeToggle(){
 				new ol.layer.Tile({
 					opacity: 0.7,
 					source: new ol.source.WMTS({
-						url: 'http://www.jjmap.gov.cn/dfc/services/ogc/wmts/JJVEC',
+						url: '',
 						layer: '0',
 						matrixSet: 'EPSG:4326',
 						format: 'image/png',
@@ -1219,7 +1219,7 @@ function mapTypeToggle(){
 				new ol.layer.Tile({
 					opacity: 0.7,
 					source: new ol.source.WMTS({
-						url: 'http://www.jjmap.gov.cn/dfc/services/ogc/wmts/JJCVA',
+						url: '',
 						layer: '0',
 						matrixSet: 'EPSG:4326',
 						format: 'image/png',
@@ -1248,7 +1248,7 @@ function mapTypeToggle(){
 				new ol.layer.Tile({
 					opacity: 0.7,
 					source: new ol.source.WMTS({
-						url: 'http://www.jjmap.gov.cn/dfc/services/ogc/wmts/JJIMG',
+						url: '',
 						layer: '0',
 						matrixSet: 'EPSG:4326',
 						format: 'image/png',
@@ -1265,7 +1265,7 @@ function mapTypeToggle(){
               new ol.layer.Tile({
 					opacity: 0.7,
 					source: new ol.source.WMTS({
-						url: 'http://www.jjmap.gov.cn/dfc/services/ogc/wmts/JJCIA',
+						url: '',
 						layer: '0',
 						matrixSet: 'EPSG:4326',
 						format: 'image/png',
